@@ -1,0 +1,468 @@
+body{
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+
+header .collapsed span{
+    color: blanchedalmond;
+
+}
+header .navbar{
+    background: linear-gradient(to right, rgb(10, 61, 102), rgb(40, 187, 245));
+    border-radius: 0px;
+    border: none;
+    color: aliceblue;
+    position: fixed;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: 3;
+}
+header .navbar .navbar-header img{
+    width: 50px;
+    height: 30px;
+  
+   
+}
+
+
+header .white .nav-white .white-text a{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navspurs{
+    position: absolute;
+    top: 10%;
+    /* bottom: 30%; */
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+
+/* bg-write start here */
+
+
+
+.bg-write .bg-h2,.bg-p{
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+.bg-write{
+    padding: 80px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(10, 61, 102), rgb(40, 187, 245));
+    margin-top: 0px;
+
+}
+
+
+
+.bg-write button{
+    background: none;
+    border: 1px solid rgb(38, 127, 185);
+    color: antiquewhite;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all .3 ease-in-out;
+}
+
+.bg-write button:hover{
+    background: rgb(17, 117, 233);
+    color: #fff;
+}
+
+
+.bg-write img{
+    width: 300px;
+    margin: 40px;
+}
+
+
+@media(max-width :400px){
+     
+    .bg-write img{
+
+
+        width: 300px;
+        margin: 80px -45px;
+    
+    
+    }
+
+
+
+    .bg-write .bg-h2,.bg-p{
+        color: antiquewhite;
+        font-weight: 600;
+        text-align: left;
+    }
+
+
+    .bg-write{
+        padding: 80px 40px;
+      
+    }
+}
+
+
+/* survuce start here */
+
+
+
+.survice img{
+    width: 70px;
+    height: 70px;
+}
+
+.survice .bori{
+    background: #e4e4e4 ;
+}
+
+
+.survice button{
+    background: linear-gradient(to right, rgb(10, 61, 102), rgb(40, 187, 245));
+    border: none;
+    border-radius: 20px;
+}
+
+.survice .survice-h1{
+    margin: 40px;
+}
+
+
+.survice .row{
+    padding: 50px;
+}
+
+
+
+/* border for all */
+
+.bor-bottom {
+    width: 50%;
+    border: 2px solid rgb(0, 217, 255);
+}
+
+
+/* our team start here */
+
+
+
+.our-team{
+    padding: 50px;
+    background: #fff;
+}
+
+
+
+.our-team .our-team-talk h3{
+    font-weight: 600;
+}
+
+
+
+
+/* /* slide start here  */
+
+
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+.swiper-container .swiper-wrapper img{
+    width: 300px;
+    height: 270px;
+}
+.swiper-container .swiper-wrapper .hover-swiper{
+   margin: -20px 0px;
+   background: linear-gradient(to right, rgb(10, 61, 102), rgb(40, 187, 245));
+   font-family: 'Times New Roman', Times, serif;
+   opacity: 0;
+   transition-delay: .28s;
+   transition: .20s;
+}
+.swiper-container .swiper-wrapper .hover-swiper:hover{
+    opacity: 1;
+}
+   
+
+
+
+
+
+.swiper-container .swiper-wrapper .hover-swiper h3:first-child{
+    font-size: 25px;
+    color: papayawhip;
+    text-align: center;
+}
+
+.swiper-container .swiper-wrapper .hover-swiper h3:last-child{
+    font-size: 25px;
+    color: rgb(182, 161, 127);
+    text-align: center;
+}
+
+
+
+
+
+/* our site start here */
+.our-site{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+}
+
+.our-site .bg-image .bg-write1{
+    text-align: center;
+
+}
+
+
+.our-site .bg-image .bg-write1 h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: antiquewhite;
+    margin: 90px 0px;
+
+}
+
+.our-site .bg-image .bg-write1 .bg-our-p {
+    font-size: 20px;
+    font-weight: 400;
+    color: antiquewhite;
+    margin: 90px;
+}
+
+
+.our-site .bg-image .bg-write1 .bg-our-pq {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(24, 223, 24);
+    margin: 90px;
+
+}
+
+
+/* project section strart here */
+
+.project{
+    padding: 40px;
+}
+
+.project .project-btn{
+    margin: 40px 0px;
+}
+
+.project .project-btn button{
+    background: none;
+    color: black;
+    border: 1px solid rgb(27, 110, 138);
+    border-radius: 0px;
+    padding:5px 10px;
+    font-size: 20px;
+    margin: 3x;
+    font-weight: 600;
+
+}
+
+
+.project .project-btn button:hover{
+    background: rgb(0, 174, 255);
+
+
+}
+
+.project .project-btn button:first-child{
+    background: rgb(0, 153, 255);
+}
+
+.project .project-images{
+    /* padding: 20px; */
+    position: relative;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.project .project-images img{
+    width: 300px;
+    height: 200px;
+    margin: 20px; 
+     margin-top: 30px;
+   
+
+}
+
+
+.project .project-images .b-img-ho{
+    background: rgba(0, 89, 255, 0.575);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    margin: 20px; 
+     margin-top: 30px;
+     padding-bottom: 30px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     opacity: 0;
+     transition: .29s;
+      
+   
+}
+
+.project .project-images .b-img-ho button{
+    background: rgba(11, 231, 213, 0.719);
+   
+  
+
+}
+
+.project .project-images .b-img-ho button:hover{
+    background: rgb(247, 242, 247);
+    color: black;
+   
+}
+
+.project .project-images .b-img-ho:hover{
+    opacity: 1;
+}
+
+
+@media(max-width :500px){
+
+    .project .project-images .b-img-ho{
+    background: rgba(255, 0, 255, 0.575);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    margin: 20px; 
+     margin-top: 30px;
+     padding-bottom: 15px;
+     padding-right: 65px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     opacity: 0;
+     transition: .29s;
+      
+   
+}
+
+
+}
+
+
+
+/* social media section */
+
+
+
+footer{
+    width: 100%;
+    background: linear-gradient(to right, rgb(10, 61, 102), rgb(40, 187, 245));
+
+    
+}
+
+footer .footer-header{
+    padding: 40px;
+}
+
+
+footer .footer-header h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.contact .contact-header h3{
+    font-size: 30px;
+    color: antiquewhite;
+    margin: 20px 0px;
+}
+
+.contact .contact-form input{
+    margin: 10px 0px;
+   
+}
+
+.contact .contact-form textarea{
+    margin: 10px 0px;
+}
+
+.social .social-header h3{
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.social .social-header p{
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.social .social-icons{
+    display: flex;
+}
+
+.social .social-icons img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.social .social-icons img:hover{
+    margin-top: 4px;
+}
+
+
+.tag .tags h3{
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.tag .tags-btn button{
+    background: none;
+    border: 1px solid rgb(21, 245, 159);
+    border-radius: 0px;
+    margin: 4px;
+    padding: 7px;
+}
+
+
+
+
+footer .copyright h3{
+    font-size: 20px;
+    color: antiquewhite;
+    margin: 15px 0px;
+}
+
+
+
+
+
+
+
